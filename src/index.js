@@ -3,12 +3,13 @@ import ReactDOM from 'react-dom'
 import {BrowserRouter as Router} from 'react-router-dom'
 
 import Routes from 'routes'
+import Header from 'components/header'
 
 const App = () => {
     return (
         <div>
-            <h3>Welcome to Hooks</h3>
             <Router>
+                <Header />
                 <Routes />
             </Router>
         </div>
